@@ -5,11 +5,11 @@ fn main() {
             CoreApplicationView,
             IFrameworkViewSource,
             IFrameworkView,
-        }
-        windows::foundation::numerics::{Vector2, Vector3}
-        windows::foundation::TimeSpan
-        windows::graphics::SizeInt32
-        windows::system::DispatcherQueueController
+        },
+        windows::foundation::numerics::{Vector2, Vector3},
+        windows::foundation::TimeSpan,
+        windows::graphics::SizeInt32,
+        windows::system::DispatcherQueueController,
         windows::ui::composition::{
             AnimationIterationBehavior,
             CompositionBatchTypes,
@@ -21,17 +21,17 @@ fn main() {
             Compositor,
             ContainerVisual,
             SpriteVisual,
-        }
-        windows::ui::composition::desktop::DesktopWindowTarget
-        windows::ui::Colors
+        },
+        windows::ui::composition::desktop::DesktopWindowTarget,
+        windows::ui::Colors,
         windows::ui::core::{
             CoreDispatcher,
             CoreWindow,
             CoreProcessEventsOption,
             WindowSizeChangedEventArgs,
             PointerEventArgs,
-        }
-        windows::win32::system_services::CreateDispatcherQueueController
-        windows::win32::winrt::{ICompositorDesktopInterop, RoInitialize}
+        },
+        windows::win32::system_services::CreateDispatcherQueueController,
+        windows::win32::winrt::{ICompositorDesktopInterop, RoInitialize},
     );
 }
